@@ -1,8 +1,8 @@
 import yaml
 
 data_yaml = dict(
-    train = 'Dataset/train',
-    val = 'Dataset/validation',
+    train = 'Dataset/train_1',
+    val = 'Dataset/val_1',
     # test = 'Dataset/test',
     nc = 1,
     names = ['car']
