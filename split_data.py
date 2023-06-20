@@ -1,4 +1,5 @@
 import splitfolders
 
-splitfolders.ratio('Dataset/val/images', output="output", seed=1337, ratio=(.8, 0.2, 0.0))
-splitfolders.ratio('Dataset/val/labels', output="output", seed=1337, ratio=(.8, 0.2, 0.0))
+# Train: 70%    Val: 20%    Test: 10%s
+splitfolders.ratio('Dataset/class1', output="Dataset/output", seed=1337, ratio=(0.7, 0.2, 0.1))
+splitfolders.ratio('Dataset/class2', output="Dataset/outputlabels", seed=1337, ratio=(0.7, 0.2, 0.1))
