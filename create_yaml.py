@@ -4,8 +4,8 @@ data_yaml = dict(
     train = 'Dataset/train',
     val = 'Dataset/val',
     test = 'Dataset/test',
-    nc = 1,
-    names = ['car']
+    nc = 4,
+    names = ['car', 'person', 'motorcycle', 'truck']
 )
 
 with open('data.yaml', 'w') as outfile:
