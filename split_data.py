@@ -2,11 +2,11 @@ import splitfolders
 import shutil
 import os
 
-path_image = "Guararema_05_06_23/Second_test/80m/class1"
-path_label = "Guararema_05_06_23/Second_test/80m/class2"
+path_image = "Guararema_05_06_23/Third_test/100m+/class1"
+path_label = "Guararema_05_06_23/Third_test/100m+/class2"
 
-output_image = "Guararema_05_06_23/Second_test/80m/output"
-output_label = "Guararema_05_06_23/Second_test/80m/outputlabels"
+output_image = "Guararema_05_06_23/Third_test/100m+/output"
+output_label = "Guararema_05_06_23/Third_test/100m+/outputlabels"
 
 # Create folder 'class1' and 'class2'
 if not os.path.exists(path_image):
