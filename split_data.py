@@ -44,17 +44,22 @@ print()
 for folder in dirlistLabel:
     print(folder)
 
-# Third: Move all files listed to correct path
+# Third: create the folder "Dataset" and put train, test and val into it
+if not os.path.exists(path_image.replace('class1', 'Dataset')):
+    os.mkdir(path_image.replace('class1', 'Dataset'))
+
+# Forth: Move all files listed to correct path
 for folder in dirlistImg:
-    shutil.move(os.path.join(output_image, folder), path_image.replace('class1', '')) # Go to the directorie before class1
+    shutil.move(os.path.join(output_image, folder), path_image.replace('class1', 'Dataset')) # Go to the directorie before class1
     # Moves folder inside the current folder (which name is 'labels') to inside the current folder in path label
     print("Arquivo de origem: "+"{}".format(os.path.join(output_label, folder)+"/labels"))
     print("Arquivo de destino: "+"{}".format(os.path.join(path_label.replace('class2', '/'), folder)))
-    shutil.move((os.path.join(output_label, folder)+"/labels"), os.path.join(path_label.replace('class2', '/'), folder))
+    shutil.move((os.path.join(output_label, folder)+"/labels"), os.path.join(path_label.replace('class2', '/Dataset'), folder))
 
-# Forth: remove folders 'output' and 'outputlabels'
+# Fifth: remove folders 'output' and 'outputlabels'
 if os.path.exists(output_image):
     shutil.rmtree(output_image)
 
 if os.path.exists(output_label):
     shutil.rmtree(output_label)
+
