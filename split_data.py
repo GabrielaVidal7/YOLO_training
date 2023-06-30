@@ -28,11 +28,11 @@ splitfolders.ratio(path_label, output=output_label, seed=1337, ratio=(0.7, 0.2, 
 
 # Move folders to the correct place
 # First: remove folders 'class1' and 'class2'
-# if os.path.exists(path_image):
-#     os.remove(path_image)
+if os.path.exists(path_image):
+    shutil.rmtree(path_image)
 
-# if os.path.exists(path_label):
-#     os.remove(path_label)
+if os.path.exists(path_label):
+    shutil.rmtree(path_label)
 
 # Second: list all directories in the current folder:
 dirlistImg = [item for item in os.listdir(output_image) if os.path.isdir(os.path.join(output_image, item))]
@@ -53,8 +53,8 @@ for folder in dirlistImg:
     shutil.move((os.path.join(output_label, folder)+"/labels"), os.path.join(path_label.replace('class2', '/'), folder))
 
 # Forth: remove folders 'output' and 'outputlabels'
-# if os.path.exists(output_image):
-#     os.remove(output_image)
+if os.path.exists(output_image):
+    shutil.rmtree(output_image)
 
-# if os.path.exists(output_label):
-#     os.remove(output_label)
+if os.path.exists(output_label):
+    shutil.rmtree(output_label)
