@@ -18,6 +18,7 @@ A partir do dataset presente, utilizou-se YOLOv7. Os resultados obtidos foram:
 |    Guararema_05_06_23/Third_test/80m    |       70      |        20      |     **90,5%**     |     55,6%     |     59,4%     |
 |    Guararema_05_06_23/Third_test/90m    |       73      |        21      |     85,7%     |     38,9%     |     47,0%     |
 |   Guararema_05_06_23/Third_test/100m+   |      221      |        63      |     38,5%     |      4,4%     |      1,5%     |
+|   Guararema_05_06_23/Third_test/Geral   |      662      |       189      |     86,7%     |     80,9%     |     85,6%     |
 
 ## Folders
 A pasta 'POLI_2023/First_test' possui o dataset e resultado do experimento feito com algumas imagens coletadas em 1 dia de vôo pelo campus da USP de São Paulo, na região do Butantã.
