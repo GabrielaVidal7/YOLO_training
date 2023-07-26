@@ -20,8 +20,8 @@ A partir do dataset presente, utilizou-se YOLOv7. Os resultados obtidos foram:
 |    Guararema_05_06_23/Third_test/100m+   |      221      |        63      |     38,5%     |      4,4%     |      1,5%     |
 |    Guararema_05_06_23/Third_test/Geral   |      662      |       189      |     86,7%     |     80,9%     |     85,6%     |
 |     Guararema_e_Arthur/First_test/60m    |     1124      |       321      |     92,5%     |     13,3%     |     15,5%     |
-|     Guararema_e_Arthur/First_test/70m    |      915      |       261      |     36,6%     |      8,5%     |      8,2%     |
-|     Guararema_e_Arthur/First_test/80m    |       77      |        22      |     %     |     %     |     %     |
+|     Guararema_e_Arthur/First_test/70m    |     1317      |       376      |     36,6%     |      8,5%     |      8,2%     |
+|     Guararema_e_Arthur/First_test/80m    |       77      |        22      |     91,5%     |       53%     |     59,4%     |
 |     Guararema_e_Arthur/First_test/90m    |       77      |        22      |     %     |       %     |     %     |
 |    Guararema_e_Arthur/First_test/100m+   |      403      |       115      |     %     |      %     |      %     |
 |    Guararema_e_Arthur/First_test/Geral   |     2598      |       742      |     %     |       %     |     %     |
