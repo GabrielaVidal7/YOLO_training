@@ -25,16 +25,21 @@ A partir do dataset presente, utilizou-se YOLOv7. Os resultados obtidos foram:
 |    Guararema_e_Arthur/First_test/90m    |       77      |        22      |     %     |       %     |     %     |
 |   Guararema_e_Arthur/First_test/100m+   |      403      |       115      |     %     |      %     |      %     |
 |   Guararema_e_Arthur/First_test/Geral   |     2598      |       742      |     %     |       %     |     %     |
+|    Guararema_e_Arthur/Second_test/60m    |      396      |       113      |     %     |      %     |     %     |
+|    Guararema_e_Arthur/Second_test/70m    |      225      |        64      |     %     |      %     |      %     |
+|   Guararema_e_Arthur/Second_test/Geral   |      621      |       177        |     %     |       %     |     %     |
 
 ## Folders
-A pasta 'POLI_2023/First_test' possui o dataset e resultado do experimento feito com algumas imagens coletadas em 1 dia de vôo pelo campus da USP de São Paulo, na região do Butantã.
+A pasta 'POLI_2023/First_test' possui o dataset e resultado do experimento feito com algumas imagens coletadas em 1 dia de vôo pelo campus da USP de São Paulo, na região do Butantã. Somente foi anotado carros.
 
-A pasta 'POLI_2023/Second_test' possui o dataset e resultado do experimento feito com todas imagens coletadas em 1 dia de vôo pelo campus da USP de São Paulo, na região do Butantã.
+A pasta 'POLI_2023/Second_test' possui o dataset e resultado do experimento feito com todas imagens coletadas em 1 dia de vôo pelo campus da USP de São Paulo, na região do Butantã. Somente foi anotado os carros das imagens coletadas.
 
-A pasta 'Guararema_05_06_23/First_test' possui o dataset e resultado do experimento feito com algumas imagens coletadas em 1 dia de vôo pela região de Guararema, perto da região da empresa em diversas altitudes, de 60m a 120m.
+A pasta 'Guararema_05_06_23/First_test' possui o dataset e resultado do experimento feito com algumas imagens coletadas em 1 dia de vôo pela região de Guararema, perto da região da empresa em diversas altitudes, de 60m a 120m. A partir dessa pasta, os dados coletados foram anotados utilizando 4 labels diferentes: pessoas, carros, caminhões e motocicletas.
 
 A pasta 'Guararema_05_06_23/Second_test' possui o dataset e resultado dos experimentos feitos com algumas imagens coletadas em 1 dia de vôo pela região de Guararema, perto da região da empresa. Os testes foram divididos de acordo com a altitude de vôo do drone: 60 metros, 70 metros, 80 metros, 90 metros e >=100 metros.
 
 A pasta 'Guararema_05_06_23/Third_test' possui o dataset e resultado dos experimentos feitos com algumas imagens coletadas em 1 dia de vôo pela região de Guararema, perto da região da empresa, e da região do Rio das Ostras (RJ). Os testes foram divididos de acordo com a altitude de vôo do drone: 60 metros, 70 metros, 80 metros, 90 metros e >=100 metros.
 
 A pasta 'Guararemae_Arthur/First_test' possui o dataset e resultado dos experimentos feitos com algumas imagens coletadas em 1 dia de vôo pela região de Guararema, perto da região da empresa, da região do Rio das Ostras (RJ) e algumas imagens capturadas pelo Arthur da região mais afastada da USP de São Paulo. Os testes foram divididos de acordo com a altitude de vôo do drone: 60 metros, 70 metros, 80 metros, 90 metros e >=100 metros. Com esse último conjunto de dados, a quantidade de imagens de 60m e 70m aumentou mais de 13x. A quantidade de dados gerados a mais para altitudes maiores de 70m não é tão significante. É importante comentar também que, a partir desses dados, existe também a classificação de animais em algumas imagens, totalizando 5 objetos diferentes.
+
+A pasta 'Guararemae_Arthur/Second_test' possui o dataset e resultado dos experimentos feitos com algumas imagens capturadas pelo Arthur da região mais afastada da USP de São Paulo. Os testes foram divididos de acordo com a altitude de vôo do drone: 60 metros e 70 metros. É importante comentar também que, a partir desses dados, existe também a classificação de animais em algumas imagens, totalizando 5 objetos diferentes (pessoas, carros, caminhões, motocicletas e animais).

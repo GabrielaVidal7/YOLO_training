@@ -6,7 +6,7 @@ import splitfolders
 import shutil
 import os
 
-main_path = "Guararema_e_Arthur/Second_test/"   # Path to the folder that will be splited
+main_path = "Guararema_e_Arthur/First_test/"   # Path to the folder that will be splited
 split_folder = "Geral/"                         # Folder that will be splited
 
 path_image = main_path + split_folder + "class1"
