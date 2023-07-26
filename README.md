@@ -26,7 +26,7 @@ A partir do dataset presente, utilizou-se YOLOv7. Os resultados obtidos foram:
 |    Guararema_e_Arthur/First_test/100m+   |      403      |       115      |     %     |      %     |      %     |
 |    Guararema_e_Arthur/First_test/Geral   |     2598      |       742      |     %     |       %     |     %     |
 |    Guararema_e_Arthur/Second_test/60m    |      396      |       113      |     93,2%     |      37,7%     |    43,1%     |
-|    Guararema_e_Arthur/Second_test/70m    |      225      |        64      |     %     |      %     |      %     |
+|    Guararema_e_Arthur/Second_test/70m    |      225      |        64      |     78,2%     |      28,3%     |      23,2%     |
 |   Guararema_e_Arthur/Second_test/Geral   |      621      |       177        |     %     |       %     |     %     |
 
 ## Folders
