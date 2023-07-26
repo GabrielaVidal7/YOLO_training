@@ -1,12 +1,19 @@
+# Creator: Gabriela Vidal
+# Objective: This code gets the dataset and split it into train, test and val
+# To use it, just change the 'main_path' and 'split_folder', 
+
 import splitfolders
 import shutil
 import os
 
-path_image = "Guararema_e_Arthur/First_test/Geral/class1"
-path_label = "Guararema_e_Arthur/First_test/Geral/class2"
+main_path = "Guararema_e_Arthur/Second_test/"   # Path to the folder that will be splited
+split_folder = "Geral/"                         # Folder that will be splited
 
-output_image = "Guararema_e_Arthur/First_test/Geral/output"
-output_label = "Guararema_e_Arthur/First_test/Geral/outputlabels"
+path_image = main_path + split_folder + "class1"
+path_label = main_path + split_folder + "class2"
+
+output_image = main_path + split_folder + "output"
+output_label = main_path + split_folder + "outputlabels"
 
 # Create folder 'class1' and 'class2'
 if not os.path.exists(path_image):
