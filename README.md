@@ -3,29 +3,29 @@ Repositório criado para armazenar os datasets utilizados além dos arquivos nec
 
 ## Resultados
 A partir do dataset presente, utilizou-se YOLOv7. Os resultados obtidos foram:
-|                   Name                  |   Train Size  |    Val Size   |   Precision   |    Recall     |      mAP      |
-|  -------------------------------------  | ------------- | -------------- | ------------- | ------------- | ------------- |
-|           POLI_2023/First_test          |      192      |        53      |     45,1%     |     38,7%     |     35,3%     |
-|           POLI_2023/Second_test         |      346      |        86      |     85,0%     |     86,0%     |     **90,1%**     |
-|       Guararema_05_06_23/First_test     |      457      |       130      |     29,5%     |     43,6%     |     32,6%     |
-|    Guararema_05_06_23/Second_test/60m   |       45      |        13      |      9,6%     |      4,5%     |      1,4%     |
-|    Guararema_05_06_23/Second_test/70m   |      109      |        31      |     91,6%     |     45,5%     |     55,7%     |
-|    Guararema_05_06_23/Second_test/80m   |       38      |        11      |      3,5%     |      3,9%     |      3,7%     |
-|    Guararema_05_06_23/Second_test/90m   |       34      |         9      |      1,2%     |      2,5%     |      9,7%     |
-|   Guararema_05_06_23/Second_test/100m+  |      208      |        59      |     56,4%     |      0,1%     |      2,8%     |
-|    Guararema_05_06_23/Third_test/60m    |       85      |        24      |     83,7%     |     37,5%     |     43,3%     |
-|    Guararema_05_06_23/Third_test/70m    |      126      |        36      |     52,4%     |     38,3%     |     31,5%     |
-|    Guararema_05_06_23/Third_test/80m    |       70      |        20      |     90,5%     |     55,6%     |     59,4%     |
-|    Guararema_05_06_23/Third_test/90m    |       73      |        21      |     85,7%     |     38,9%     |     47,0%     |
-|   Guararema_05_06_23/Third_test/100m+   |      221      |        63      |     38,5%     |      4,4%     |      1,5%     |
-|   Guararema_05_06_23/Third_test/Geral   |      662      |       189      |     86,7%     |     80,9%     |     85,6%     |
-|    Guararema_e_Arthur/First_test/60m    |     1124      |       321      |     %     |      %     |     %     |
-|    Guararema_e_Arthur/First_test/70m    |      915      |       261      |     %     |      %     |      %     |
-|    Guararema_e_Arthur/First_test/80m    |       77      |        22      |     %     |     %     |     %     |
-|    Guararema_e_Arthur/First_test/90m    |       77      |        22      |     %     |       %     |     %     |
-|   Guararema_e_Arthur/First_test/100m+   |      403      |       115      |     %     |      %     |      %     |
-|   Guararema_e_Arthur/First_test/Geral   |     2598      |       742      |     %     |       %     |     %     |
-|    Guararema_e_Arthur/Second_test/60m    |      396      |       113      |     %     |      %     |     %     |
+|                   Name                   |   Train Size  |    Val Size   |   Precision   |    Recall     |      mAP      |
+|  --------------------------------------  | ------------- | -------------- | ------------- | ------------- | ------------- |
+|            POLI_2023/First_test          |      192      |        53      |     45,1%     |     38,7%     |     35,3%     |
+|            POLI_2023/Second_test         |      346      |        86      |     85,0%     |     86,0%     |     **90,1%**     |
+|        Guararema_05_06_23/First_test     |      457      |       130      |     29,5%     |     43,6%     |     32,6%     |
+|     Guararema_05_06_23/Second_test/60m   |       45      |        13      |      9,6%     |      4,5%     |      1,4%     |
+|     Guararema_05_06_23/Second_test/70m   |      109      |        31      |     91,6%     |     45,5%     |     55,7%     |
+|     Guararema_05_06_23/Second_test/80m   |       38      |        11      |      3,5%     |      3,9%     |      3,7%     |
+|     Guararema_05_06_23/Second_test/90m   |       34      |         9      |      1,2%     |      2,5%     |      9,7%     |
+|    Guararema_05_06_23/Second_test/100m+  |      208      |        59      |     56,4%     |      0,1%     |      2,8%     |
+|     Guararema_05_06_23/Third_test/60m    |       85      |        24      |     83,7%     |     37,5%     |     43,3%     |
+|     Guararema_05_06_23/Third_test/70m    |      126      |        36      |     52,4%     |     38,3%     |     31,5%     |
+|     Guararema_05_06_23/Third_test/80m    |       70      |        20      |     90,5%     |     55,6%     |     59,4%     |
+|     Guararema_05_06_23/Third_test/90m    |       73      |        21      |     85,7%     |     38,9%     |     47,0%     |
+|    Guararema_05_06_23/Third_test/100m+   |      221      |        63      |     38,5%     |      4,4%     |      1,5%     |
+|    Guararema_05_06_23/Third_test/Geral   |      662      |       189      |     86,7%     |     80,9%     |     85,6%     |
+|     Guararema_e_Arthur/First_test/60m    |     1124      |       321      |     %     |      %     |     %     |
+|     Guararema_e_Arthur/First_test/70m    |      915      |       261      |     %     |      %     |      %     |
+|     Guararema_e_Arthur/First_test/80m    |       77      |        22      |     %     |     %     |     %     |
+|     Guararema_e_Arthur/First_test/90m    |       77      |        22      |     %     |       %     |     %     |
+|    Guararema_e_Arthur/First_test/100m+   |      403      |       115      |     %     |      %     |      %     |
+|    Guararema_e_Arthur/First_test/Geral   |     2598      |       742      |     %     |       %     |     %     |
+|    Guararema_e_Arthur/Second_test/60m    |      396      |       113      |     93,2%     |      37,7%     |    43,1%     |
 |    Guararema_e_Arthur/Second_test/70m    |      225      |        64      |     %     |      %     |      %     |
 |   Guararema_e_Arthur/Second_test/Geral   |      621      |       177        |     %     |       %     |     %     |
 
