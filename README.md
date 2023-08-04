@@ -3,8 +3,9 @@ Repositório criado para armazenar os datasets utilizados além dos arquivos nec
 
 ## Resultados
 A partir do dataset presente, utilizou-se YOLOv7. Os resultados obtidos foram:
-|                   Name                   |   Train Size  |    Val Size    |   Precision   |    Recall     |      mAP      |
-|  --------------------------------------  | ------------- | -------------- | ------------- | ------------- | ------------- |
+|                  Name                 |   Train Size  |    Val Size    |   Precision   |    Recall     |      mAP      |
+|  -----------------------------------  | ------------- | -------------- | ------------- | ------------- | ------------- |
+|  -----------------------------------  | ------------- | -------------- | ------------- | ------------- | ------------- |
 |           POLI_2023/1st_test          |      192      |        53      |     45,1%     |     38,7%     |     35,3%     |
 |           POLI_2023/2nd_test          |      346      |        86      |     85,0%     |     86,0%     |     **90,1%**     |
 |        Guararema_05_06_23/1st_test    |      457      |       130      |     29,5%     |     43,6%     |     32,6%     |
@@ -29,14 +30,14 @@ A partir do dataset presente, utilizou-se YOLOv7. Os resultados obtidos foram:
 |    Guararema_e_Arthur/2nd_test/70m    |      225      |        64      |     78,2%     |     28,3%     |     23,2%     |
 |   Guararema_e_Arthur/2nd_test/Geral   |      621      |       177      |      0,9%     |     14,8%     |     19,3%     |
 |     Guararema_e_Arthur/1st_test/60m   |      909      |       260      |     73,9%     |     32,4%     |     37,1%     |
-|     Guararema_e_Arthur/1st_test/70m   |     1271      |       363      |     %     |      %     |      %     |
+|     Guararema_e_Arthur/1st_test/70m   |     1271      |       363      |     93,5%     |     12,6%     |     18,2%     |
 |     Guararema_e_Arthur/1st_test/80m   |       62      |        17      |     %     |       %     |     %     |
 |     Guararema_e_Arthur/1st_test/90m   |       56      |        16      |     %     |     %     |       %     |
 |    Guararema_e_Arthur/1st_test/100m+  |      153      |        43      |     %     |      %     |      %     |
 |    Guararema_e_Arthur/1st_test/Geral  |     2452      |       700      |     %     |       %     |       %     |
-|    Guararema_e_Arthur/4th_test/60m    |            |             |     %     |     %     |     %     |
-|    Guararema_e_Arthur/4th_test/70m    |            |              |     %     |     %     |     %     |
-|   Guararema_e_Arthur/4th_test/Geral   |            |             |      %     |     %     |     %     |
+|    Guararema_e_Arthur/4th_test/60m    |      381      |       109      |     %     |     %     |     %     |
+|    Guararema_e_Arthur/4th_test/70m    |      225      |        64      |     %     |     %     |     %     |
+|   Guararema_e_Arthur/4th_test/Geral   |      606      |       173      |      %     |     %     |     %     |
 
 ## Folders
 A pasta [POLI_2023/1st_test](https://github.com/GabrielaVidal7/transpetro_YOLO/tree/main/POLI_2023/1st_test) possui o dataset e resultado do experimento feito com algumas imagens coletadas em 1 dia de vôo pelo campus da USP de São Paulo, na região do Butantã. Somente foi anotado carros.
