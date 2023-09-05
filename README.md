@@ -35,8 +35,8 @@ A partir do dataset presente, utilizou-se YOLOv7. Os resultados obtidos foram:
 |    Guararema_e_Arthur/3rd_test/100m+  |      153      |        43      |     %     |      %     |      %     |
 |    Guararema_e_Arthur/3rd_test/Geral  |     2452      |       700      |     29,3%     |       35%     |     27,6%     |
 |    Guararema_e_Arthur/4th_test/60m    |      381      |       109      |     91,8%     |       51%     |     57,5%     |
-|    Guararema_e_Arthur/4th_test/70m    |      225      |        64      |     %     |     %     |     %     |
-|   Guararema_e_Arthur/4th_test/Geral   |      606      |       173      |      %     |     %     |     %     |
+|    Guararema_e_Arthur/4th_test/70m    |      225      |        64      |     27,9%     |       35%     |     30,5%     |
+|   Guararema_e_Arthur/4th_test/Geral   |      606      |       173      |     88,2%     |     36,9%     |     39,7%     |
 
 ## Folders
 * [POLI_2023/1st_test](https://github.com/GabrielaVidal7/transpetro_YOLO/tree/main/POLI_2023/1st_test) possui o dataset e resultado do experimento feito com algumas imagens coletadas em 1 dia de vôo pelo campus da USP de São Paulo, na região do Butantã. Somente foi anotado carros.
