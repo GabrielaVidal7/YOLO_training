@@ -39,7 +39,10 @@ A partir do dataset presente, utilizou-se YOLOv7. Os resultados obtidos estão p
 
 ### Graphs
 Também gerou-se alguns gráficos para analisar a evolução dos treinamentos para as diversas altitudes conforme houve um aumento no dataset. Abaixo estão os gráficos dos resultados obtidos com dataset das imagens térmicas em escala de cinza.
+[Resultados escala de cinza](https://github.com/GabrielaVidal7/transpetro_YOLO/blob/main/Images/results_gray_scale.png)
 
+Os gráficos abaixo estão representando os resultados obtidos com os datasets coloridos em escala de vermelho.
+[Resultados escala vermelho](https://github.com/GabrielaVidal7/transpetro_YOLO/blob/main/Images/results_colored_scale.png)
 
 
 ## Folders
