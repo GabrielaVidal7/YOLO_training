@@ -1,8 +1,33 @@
-# Transpetro_YOLO
-Repositório criado para armazenar os datasets utilizados além dos arquivos necessários para rodar o YOLO para o projeto em desenvolvimento para a empresa Transpetro.
+<a name="readme-top"></a>
 
-## Resultados
-A partir do dataset presente, utilizou-se YOLOv7. Os resultados obtidos estão presentes na tabela abaixo:
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/GabrielaVidal7/transpetro_YOLO">
+    <!-- <img src="images/logo.png" alt="Logo" width="80" height="80"> -->
+  </a>
+
+  <h3 align="center">Neural Network Training for Transpetro Project</h3>
+
+  <p align="center">
+    Dataset used to train some Neural Network for Transpetro project
+    <br />
+    <a href="https://github.com/GabrielaVidal7/transpetro_YOLO"><strong>Explore the docs »</strong></a>
+    <!-- <br />
+    <br />
+    <a href="https://github.com/GabrielaVidal7/transpetro_YOLO">View Demo</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a> -->
+  </p>
+</div>
+
+## About The Project
+This repository contains all dataset used to train and test YOLO v7 Neural Network for Transpetro project. It also contains the weights calculated by YOLO v7 using these datasets.
+
+## Results
+
 |                           Name                           |   Train Size  |    Val Size    |   Precision   |    Recall     |      mAP      |
 |  ------------------------------------------------------  | ------------- | -------------- | ------------- | ------------- | ------------- |
 |    POLI_2023/1st_test                                    |      192      |        53      |     45,1%     |     38,7%     |     35,3%     |
@@ -37,17 +62,21 @@ A partir do dataset presente, utilizou-se YOLOv7. Os resultados obtidos estão p
 |    Guararema_e_Arthur/2nd_thermal_color_reanotated/70m   |      225      |        64      |     27,9%     |       35%     |     30,5%     |
 |    Guararema_e_Arthur/2nd_thermal_color_reanotated/Geral |      606      |       173      |     88,2%     |     36,9%     |     39,7%     |
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 ### Graphs
-Também gerou-se alguns gráficos para analisar a evolução dos treinamentos para as diversas altitudes conforme houve um aumento no dataset. Abaixo estão os gráficos dos resultados obtidos com dataset das imagens térmicas em escala de cinza.
+This graphs represents the evolution of the trainings for different altitudes as the dataset increases. Below are the graphs of the results obtained with the grayscale thermal image dataset.
 
-![Resultados escala de cinza](https://github.com/GabrielaVidal7/transpetro_YOLO/blob/main/Images/results_gray_scale.png)
+![Grayscale results](https://github.com/GabrielaVidal7/transpetro_YOLO/blob/main/Images/results_gray_scale.png)
 
-Os gráficos abaixo estão representando os resultados obtidos com os datasets coloridos em escala de vermelho.
+Below are the graphs of the results obtained with the datasets colored in red scale.
 
-![Resultados escala vermelho](https://github.com/GabrielaVidal7/transpetro_YOLO/blob/main/Images/results_colored_scale.png)
+![Red scale results](https://github.com/GabrielaVidal7/transpetro_YOLO/blob/main/Images/results_colored_scale.png)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Folders
+## Folders explanation
 * [Guararema_05_06_23/1st_test](https://github.com/GabrielaVidal7/transpetro_YOLO/tree/main/Guararema_05_06_23/1st_test) possui o dataset e resultado do experimento feito com algumas imagens coletadas em 1 dia de vôo pela região de Guararema, perto da região da empresa em diversas altitudes, de 60m a 120m. A partir dess*, os dados coletados foram anotados utilizando 4 labels diferentes: pessoas, carros, caminhões e motocicletas.
 
 * [Guararema_05_06_23/2nd_test](https://github.com/GabrielaVidal7/transpetro_YOLO/tree/main/Guararema_05_06_23/2nd_test) possui o dataset e resultado dos experimentos feitos com algumas imagens coletadas em 1 dia de vôo pela região de Guararema, perto da região da empresa. Os testes foram divididos de acordo com a altitude de vôo do drone: 60 metros, 70 metros, 80 metros, 90 metros e >=100 metros.
@@ -61,3 +90,28 @@ Os gráficos abaixo estão representando os resultados obtidos com os datasets c
 * [Guararema_e_Arthur/2nd_thermal_reanotated](https://github.com/GabrielaVidal7/transpetro_YOLO/tree/main/Guararema_e_Arthur/3rd_test) possui o dataset e resultado dos experimentos feitos com algumas imagens capturadas em 1 dia de vôo pela região de Guararema, perto da região da empresa e em Arthur Nogueira. Os testes foram divididos de acordo com a altitude de vôo do drone: 60 metros e 70 metros. É importante comentar também que, a partir desses dados, existe também a classificação de animais em algumas imagens, totalizando 5 objetos diferentes (pessoas, carros, caminhões, motocicletas e animais). Como os resultados do teste anterior foram bem abaixo do esperado, realizou-se uma nova anotação dos dados de Arthur Nogueira, deixando de anotar alguns frames que possuíam objetos cortados ou frames muito tremidos.
 
 * [Guararema_e_Arthur/2nd_thermal_color_reanotated](https://github.com/GabrielaVidal7/transpetro_YOLO/tree/main/Guararema_e_Arthur/4th_test) possui o dataset e resultado dos experimentos feitos com algumas imagens capturadas em Arthur Nogueira. Os testes foram divididos de acordo com a altitude de vôo do drone: 60 metros e 70 metros. É importante comentar também que, a partir desses dados, existe também a classificação de animais em algumas imagens, totalizando 5 objetos diferentes (pessoas, carros, caminhões, motocicletas e animais). O dataset desse teste possui uma colorização das imagens térmicas, deixando os pontos mais quentes com tons mais fortes de vermelho. Como os resultados do teste anterior foram bem abaixo do esperado, realizou-se uma nova anotação dos dados de Arthur Nogueira, deixando de anotar alguns frames que possuíam objetos cortados ou frames muito tremidos.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ## Usage
+
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+_For more examples, please refer to the [Documentation](https://example.com)_
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+-->
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Contact
+
+Gabriela Barion Vidal - [LinkedIn](https://www.linkedin.com/in/gabriela-barion-vidal/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
