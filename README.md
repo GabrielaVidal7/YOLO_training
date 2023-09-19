@@ -3,16 +3,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/GabrielaVidal7/YOLO_training">
+  <a href="https://github.com/GabrielaVidal7/transpetro_YOLO">
     <!-- <img src="images/logo.png" alt="Logo" width="80" height="80"> -->
   </a>
 
-  <h3 align="center">Neural Network for thermal dataset</h3>
+  <h3 align="center">Neural Network Training for Transpetro Project</h3>
 
   <p align="center">
-    Dataset used to train some Neural Network for a project
+    Dataset used to train some Neural Network for Transpetro project
     <br />
-    <a href="https://github.com/GabrielaVidal7/YOLO_training"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/GabrielaVidal7/transpetro_YOLO"><strong>Explore the docs »</strong></a>
     <!-- <br />
     <br />
     <a href="https://github.com/GabrielaVidal7/transpetro_YOLO">View Demo</a>
@@ -24,12 +24,12 @@
 </div>
 
 ## About The Project
-This repository contains all dataset used to train and test YOLO v7 Neural Network for a project. It also contains the weights calculated by YOLO v7 using these datasets.
+This repository contains all dataset used to train and test YOLO v7 Neural Network for Transpetro project. It also contains the weights calculated by YOLO v7 using these datasets.
 
 ## Results
 
 |                           Name                           |   Train Size  |    Val Size    |   Precision   |    Recall     |      mAP      |
-|  ------------------------------------------------------  | :-----------: | :------------: | :-----------: | :-----------: | :-----------: |
+|  ------------------------------------------------------  | ------------- | -------------- | ------------- | ------------- | ------------- |
 |    POLI_2023/1st_test                                    |      192      |        53      |     45,1%     |     38,7%     |     35,3%     |
 |    POLI_2023/2nd_test                                    |      346      |        86      |     85,0%     |     86,0%     |     **90,1%**     |
 |    Guararema_05_06_23/1st_test                           |      457      |       130      |     29,5%     |     43,6%     |     32,6%     |
@@ -50,17 +50,17 @@ This repository contains all dataset used to train and test YOLO v7 Neural Netwo
 |    Guararema_e_Arthur/1st_thermal/90m                    |       77      |        22      |     74,8%     |     31,3%     |       34%     |
 |    Guararema_e_Arthur/1st_thermal/100m+                  |      403      |       115      |     54,4%     |      4,2%     |      2,4%     |
 |    Guararema_e_Arthur/1st_thermal/Geral                  |     3002      |       857      |     38,4%     |       16%     |       14%     |
-|    Guararema_e_Arthur/1st_thermal_color/60m              |      396      |       113      |     93,2%     |     37,7%     |     43,1%     |
-|    Guararema_e_Arthur/1st_thermal_color/70m              |      225      |        64      |     78,2%     |     28,3%     |     23,2%     |
-|    Guararema_e_Arthur/1st_thermal_color/Geral            |      621      |       177      |      0,9%     |     14,8%     |     19,3%     |
+|    Guararema_e_Arthur/1st_thermal_redhot/60m              |      396      |       113      |     93,2%     |     37,7%     |     43,1%     |
+|    Guararema_e_Arthur/1st_thermal_redhot/70m              |      225      |        64      |     78,2%     |     28,3%     |     23,2%     |
+|    Guararema_e_Arthur/1st_thermal_redhot/Geral            |      621      |       177      |      0,9%     |     14,8%     |     19,3%     |
 |    Guararema_e_Arthur/2nd_thermal_reanotated/60m         |      909      |       260      |     56,6%     |     45,4%     |     49,8%     |
 |    Guararema_e_Arthur/2nd_thermal_reanotated/70m         |     1271      |       363      |     93,5%     |     12,6%     |     18,2%     |
 |    Guararema_e_Arthur/2nd_thermal_reanotated/80m         |       62      |        17      |       96%     |     43,2%     |     46,7%     |
 |    Guararema_e_Arthur/2nd_thermal_reanotated/90m         |       56      |        16      |     90,8%     |     40,1%     |     43,6%     |
 |    Guararema_e_Arthur/2nd_thermal_reanotated/Geral       |     2452      |       700      |     29,3%     |       35%     |     27,6%     |
-|    Guararema_e_Arthur/2nd_thermal_color_reanotated/60m   |      381      |       109      |     91,8%     |       51%     |     57,5%     |
-|    Guararema_e_Arthur/2nd_thermal_color_reanotated/70m   |      225      |        64      |     27,9%     |       35%     |     30,5%     |
-|    Guararema_e_Arthur/2nd_thermal_color_reanotated/Geral |      606      |       173      |     88,2%     |     36,9%     |     39,7%     |
+|    Guararema_e_Arthur/2nd_thermal_redhot_reanotated/60m   |      381      |       109      |     91,8%     |       51%     |     57,5%     |
+|    Guararema_e_Arthur/2nd_thermal_redhot_reanotated/70m   |      225      |        64      |     27,9%     |       35%     |     30,5%     |
+|    Guararema_e_Arthur/2nd_thermal_redhot_reanotated/Geral |      606      |       173      |     88,2%     |     36,9%     |     39,7%     |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -68,28 +68,28 @@ This repository contains all dataset used to train and test YOLO v7 Neural Netwo
 ### Graphs
 This graphs represents the evolution of the trainings for different altitudes as the dataset increases. Below are the graphs of the results obtained with the grayscale thermal image dataset.
 
-![Grayscale results](https://github.com/GabrielaVidal7/YOLO_training/blob/main/Images/results_gray_scale.png)
+![Grayscale results](https://github.com/GabrielaVidal7/transpetro_YOLO/blob/main/Results/results_gray_scale.png)
 
-Below are the graphs of the results obtained with the datasets colored in red scale.
+Below are the graphs of the results obtained with the datasets with redhot filter.
 
-![Red scale results](https://github.com/GabrielaVidal7/YOLO_training/blob/main/Images/results_colored_scale.png)
+![Red scale results](https://github.com/GabrielaVidal7/transpetro_YOLO/blob/main/Results/results_colored_scale.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Folders explanation
-* [Guararema_05_06_23/1st_test](https://github.com/GabrielaVidal7/YOLO_training/tree/main/Guararema_05_06_23/1st_test) possui o dataset e resultado do experimento feito com algumas imagens coletadas em 1 dia de vôo pela região de Guararema, perto da região da empresa em diversas altitudes, de 60m a 120m. A partir dess*, os dados coletados foram anotados utilizando 4 labels diferentes: pessoas, carros, caminhões e motocicletas.
+* [Guararema_05_06_23/1st_test](https://github.com/GabrielaVidal7/transpetro_YOLO/tree/main/Guararema_05_06_23/1st_test) possui o dataset e resultado do experimento feito com algumas imagens coletadas em 1 dia de vôo pela região de Guararema, perto da região da empresa em diversas altitudes, de 60m a 120m. A partir dess*, os dados coletados foram anotados utilizando 4 labels diferentes: pessoas, carros, caminhões e motocicletas.
 
-* [Guararema_05_06_23/2nd_test](https://github.com/GabrielaVidal7/YOLO_training/tree/main/Guararema_05_06_23/2nd_test) possui o dataset e resultado dos experimentos feitos com algumas imagens coletadas em 1 dia de vôo pela região de Guararema, perto da região da empresa. Os testes foram divididos de acordo com a altitude de vôo do drone: 60 metros, 70 metros, 80 metros, 90 metros e >=100 metros.
+* [Guararema_05_06_23/2nd_test](https://github.com/GabrielaVidal7/transpetro_YOLO/tree/main/Guararema_05_06_23/2nd_test) possui o dataset e resultado dos experimentos feitos com algumas imagens coletadas em 1 dia de vôo pela região de Guararema, perto da região da empresa. Os testes foram divididos de acordo com a altitude de vôo do drone: 60 metros, 70 metros, 80 metros, 90 metros e >=100 metros.
 
-* [Guararema_05_06_23/3rd_test](https://github.com/GabrielaVidal7/YOLO_training/tree/main/Guararema_05_06_23/3rd_test) possui o dataset e resultado dos experimentos feitos com algumas imagens coletadas em 1 dia de vôo pela região de Guararema, perto da região da empresa, e da região do Rio das Ostras (RJ). Os testes foram divididos de acordo com a altitude de vôo do drone: 60 metros, 70 metros, 80 metros, 90 metros e >=100 metros.
+* [Guararema_05_06_23/3rd_test](https://github.com/GabrielaVidal7/transpetro_YOLO/tree/main/Guararema_05_06_23/3rd_test) possui o dataset e resultado dos experimentos feitos com algumas imagens coletadas em 1 dia de vôo pela região de Guararema, perto da região da empresa, e da região do Rio das Ostras (RJ). Os testes foram divididos de acordo com a altitude de vôo do drone: 60 metros, 70 metros, 80 metros, 90 metros e >=100 metros.
 
-* [Guararema_e_Arthur/1st_thermal](https://github.com/GabrielaVidal7/YOLO_training/tree/main/Guararema_e_Arthur/1st_test) possui o dataset e resultado dos experimentos feitos com algumas imagens coletadas em 1 dia de vôo pela região de Guararema, perto da região da empresa, da região do Rio das Ostras (RJ) e algumas imagens capturadas em Arthur Nogueira. Os testes foram divididos de acordo com a altitude de vôo do drone: 60 metros, 70 metros, 80 metros, 90 metros e >=100 metros. Com esse último conjunto de dados, a quantidade de imagens de 60m e 70m aumentou mais de 13x. A quantidade de dados gerados a mais para altitudes maiores de 70m não é tão significante. É importante comentar também que, a partir desses dados, existe também a classificação de animais em algumas imagens, totalizando 5 objetos diferentes.
+* [Guararema_e_Arthur/1st_thermal](https://github.com/GabrielaVidal7/transpetro_YOLO/tree/main/Guararema_e_Arthur/1st_thermal) possui o dataset e resultado dos experimentos feitos com algumas imagens coletadas em 1 dia de vôo pela região de Guararema, perto da região da empresa, da região do Rio das Ostras (RJ) e algumas imagens capturadas em Arthur Nogueira. Os testes foram divididos de acordo com a altitude de vôo do drone: 60 metros, 70 metros, 80 metros, 90 metros e >=100 metros. Com esse último conjunto de dados, a quantidade de imagens de 60m e 70m aumentou mais de 13x. A quantidade de dados gerados a mais para altitudes maiores de 70m não é tão significante. É importante comentar também que, a partir desses dados, existe também a classificação de animais em algumas imagens, totalizando 5 objetos diferentes.
 
-* [Guararema_e_Arthur/1st_thermal_color](https://github.com/GabrielaVidal7/YOLO_training/tree/main/Guararema_e_Arthur/2nd_test) possui o dataset e resultado dos experimentos feitos com algumas imagens capturadas em Arthur Nogueira. Os testes foram divididos de acordo com a altitude de vôo do drone: 60 metros e 70 metros. É importante comentar também que, a partir desses dados, existe também a classificação de animais em algumas imagens, totalizando 5 objetos diferentes (pessoas, carros, caminhões, motocicletas e animais). O dataset desse teste possui uma colorização das imagens térmicas, deixando os pontos mais quentes com tons mais fortes de vermelho.
+* [Guararema_e_Arthur/1st_thermal_redhot_](https://github.com/GabrielaVidal7/transpetro_YOLO/tree/main/Guararema_e_Arthur/1st_thermal_redhot) possui o dataset e resultado dos experimentos feitos com algumas imagens capturadas em Arthur Nogueira. Os testes foram divididos de acordo com a altitude de vôo do drone: 60 metros e 70 metros. É importante comentar também que, a partir desses dados, existe também a classificação de animais em algumas imagens, totalizando 5 objetos diferentes (pessoas, carros, caminhões, motocicletas e animais). O dataset desse teste possui uma colorização das imagens térmicas, deixando os pontos mais quentes com tons mais fortes de vermelho.
 
-* [Guararema_e_Arthur/2nd_thermal_reanotated](https://github.com/GabrielaVidal7/YOLO_training/tree/main/Guararema_e_Arthur/3rd_test) possui o dataset e resultado dos experimentos feitos com algumas imagens capturadas em 1 dia de vôo pela região de Guararema, perto da região da empresa e em Arthur Nogueira. Os testes foram divididos de acordo com a altitude de vôo do drone: 60 metros e 70 metros. É importante comentar também que, a partir desses dados, existe também a classificação de animais em algumas imagens, totalizando 5 objetos diferentes (pessoas, carros, caminhões, motocicletas e animais). Como os resultados do teste anterior foram bem abaixo do esperado, realizou-se uma nova anotação dos dados de Arthur Nogueira, deixando de anotar alguns frames que possuíam objetos cortados ou frames muito tremidos.
+* [Guararema_e_Arthur/2nd_thermal_reanotated](https://github.com/GabrielaVidal7/transpetro_YOLO/tree/main/Guararema_e_Arthur/2nd_thermal_reanotated) possui o dataset e resultado dos experimentos feitos com algumas imagens capturadas em 1 dia de vôo pela região de Guararema, perto da região da empresa e em Arthur Nogueira. Os testes foram divididos de acordo com a altitude de vôo do drone: 60 metros e 70 metros. É importante comentar também que, a partir desses dados, existe também a classificação de animais em algumas imagens, totalizando 5 objetos diferentes (pessoas, carros, caminhões, motocicletas e animais). Como os resultados do teste anterior foram bem abaixo do esperado, realizou-se uma nova anotação dos dados de Arthur Nogueira, deixando de anotar alguns frames que possuíam objetos cortados ou frames muito tremidos.
 
-* [Guararema_e_Arthur/2nd_thermal_color_reanotated](https://github.com/GabrielaVidal7/YOLO_training/tree/main/Guararema_e_Arthur/4th_test) possui o dataset e resultado dos experimentos feitos com algumas imagens capturadas em Arthur Nogueira. Os testes foram divididos de acordo com a altitude de vôo do drone: 60 metros e 70 metros. É importante comentar também que, a partir desses dados, existe também a classificação de animais em algumas imagens, totalizando 5 objetos diferentes (pessoas, carros, caminhões, motocicletas e animais). O dataset desse teste possui uma colorização das imagens térmicas, deixando os pontos mais quentes com tons mais fortes de vermelho. Como os resultados do teste anterior foram bem abaixo do esperado, realizou-se uma nova anotação dos dados de Arthur Nogueira, deixando de anotar alguns frames que possuíam objetos cortados ou frames muito tremidos.
+* [Guararema_e_Arthur/2nd_thermal_redhot__reanotated](https://github.com/GabrielaVidal7/transpetro_YOLO/tree/main/Guararema_e_Arthur/2nd_thermal_redhot_reanotated) possui o dataset e resultado dos experimentos feitos com algumas imagens capturadas em Arthur Nogueira. Os testes foram divididos de acordo com a altitude de vôo do drone: 60 metros e 70 metros. É importante comentar também que, a partir desses dados, existe também a classificação de animais em algumas imagens, totalizando 5 objetos diferentes (pessoas, carros, caminhões, motocicletas e animais). O dataset desse teste possui uma colorização das imagens térmicas, deixando os pontos mais quentes com tons mais fortes de vermelho. Como os resultados do teste anterior foram bem abaixo do esperado, realizou-se uma nova anotação dos dados de Arthur Nogueira, deixando de anotar alguns frames que possuíam objetos cortados ou frames muito tremidos.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
